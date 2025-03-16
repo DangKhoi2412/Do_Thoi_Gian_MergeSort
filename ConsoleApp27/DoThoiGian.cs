@@ -15,9 +15,9 @@ namespace ConsoleApp27
                 Console.InputEncoding = Encoding.Unicode;
                 Console.OutputEncoding = Encoding.Unicode;
                 Console.WriteLine("Đang đo thời gian thuật toán Merge Sort...");
-                tinh.tinhthoigiantb("Dễ nhất (mảng đã sắp xếp)", taomang.denhat);
+                tinh.tinhthoigiantb("Tốt nhất (mảng đã sắp xếp)", taomang.denhat);
                 tinh.tinhthoigiantb("Trung bình (mảng ngẫu nhiên)", taomang.trungbinh);
-                tinh.tinhthoigiantb("Khó nhất (mảng sắp xếp ngược)", taomang.khonhat);
+                tinh.tinhthoigiantb("Xấu nhất (mảng sắp xếp ngược)", taomang.khonhat);
                 Console.ReadKey();
             }
         }
